@@ -1636,7 +1636,7 @@ __metadata:
     react-scrollbar: ^0.5.4
     react-slider: 0.11.2
     react-tabs: 3.0.0
-    react-test-renderer: ^16.4.2
+    react-test-renderer: ^17.0.2
     react-test-utils: 0.0.1
     react-tooltip: ^4.2.21
     react-widgets: ^4.4.4
@@ -4064,6 +4064,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"abab@npm:^2.0.5":
+  version: 2.0.5
+  resolution: "abab@npm:2.0.5"
+  checksum: 0ec951b46d5418c2c2f923021ec193eaebdb4e802ffd5506286781b454be722a13a8430f98085cd3e204918401d9130ec6cc8f5ae19be315b3a0e857d83196e1
+  languageName: node
+  linkType: hard
+
 "abbrev@npm:1":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
@@ -4934,7 +4941,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"async@npm:^2.1.4, async@npm:^2.4.1, async@npm:^2.5.0":
+"async@npm:^2.1.4, async@npm:^2.4.1":
   version: 2.6.2
   resolution: "async@npm:2.6.2"
   dependencies:
@@ -10273,7 +10280,7 @@ __metadata:
     redux-devtools-log-monitor: 1.4.0
     redux-immutable-state-invariant: 2.1.0
     redux-thunk: 2.3.0
-    source-map-loader: ^0.2.3
+    source-map-loader: ^3.0.0
     style-loader: 0.23.1
     throttle-debounce: 3.0.1
     url-loader: 1.1.2
@@ -16929,7 +16936,7 @@ fsevents@~2.3.2:
     react-day-picker: ^7.2.4
     react-dom: ^16.6.3
     react-hot-loader: 4.8.5
-    react-test-renderer: ^16.6.2
+    react-test-renderer: ^17.0.2
     react-widgets: 4.4.7
     string.prototype.startswith: 1.0.0
     style-loader: ^0.23.1
@@ -18106,7 +18113,7 @@ fsevents@~2.3.2:
     react-dom: ^16.6.3
     react-hot-loader: 4.8.5
     react-redux: 5.1.0
-    react-test-renderer: ^16.6.2
+    react-test-renderer: ^17.0.2
     redux: 4.1.1
     redux-devtools: ^3.5.0
     redux-devtools-dock-monitor: 1.1.3
@@ -18853,6 +18860,13 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"react-is@npm:^16.12.0 || ^17.0.0, react-is@npm:^17.0.2":
+  version: 17.0.2
+  resolution: "react-is@npm:17.0.2"
+  checksum: 9d6d111d8990dc98bc5402c1266a808b0459b5d54830bbea24c12d908b536df7883f268a7868cfaedde3dd9d4e0d574db456f84d2e6df9c4526f99bb4b5344d8
+  languageName: node
+  linkType: hard
+
 "react-is@npm:^16.12.0, react-is@npm:^16.3.2, react-is@npm:^16.6.0, react-is@npm:^16.7.0, react-is@npm:^16.8.1, react-is@npm:^16.8.2, react-is@npm:^16.8.4, react-is@npm:^16.8.6":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
@@ -19055,6 +19069,18 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"react-shallow-renderer@npm:^16.13.1":
+  version: 16.14.1
+  resolution: "react-shallow-renderer@npm:16.14.1"
+  dependencies:
+    object-assign: ^4.1.1
+    react-is: ^16.12.0 || ^17.0.0
+  peerDependencies:
+    react: ^16.0.0 || ^17.0.0
+  checksum: f344c663c48720d19559b4198b1f63ad47a3f11bedc92ede053a6c0706b5209e6110086f3ccc6db04eda9f0d1a415845956ddfb6ce09a922167d4831fcba9314
+  languageName: node
+  linkType: hard
+
 "react-slider@npm:0.11.2":
   version: 0.11.2
   resolution: "react-slider@npm:0.11.2"
@@ -19093,7 +19119,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"react-test-renderer@npm:^16.0.0-0, react-test-renderer@npm:^16.4.2, react-test-renderer@npm:^16.6.2":
+"react-test-renderer@npm:^16.0.0-0":
   version: 16.8.6
   resolution: "react-test-renderer@npm:16.8.6"
   dependencies:
@@ -19104,6 +19130,20 @@ fsevents@~2.3.2:
   peerDependencies:
     react: ^16.0.0
   checksum: b35014a515ee8c90432a9bf677e6d3a59af9ac7fb2ae8b59e54278596bb34e22a13788b7bc4348aa19acdfac48cf40d514d2dfa53fe972d92c4c4194e4f2b7c9
+  languageName: node
+  linkType: hard
+
+"react-test-renderer@npm:^17.0.2":
+  version: 17.0.2
+  resolution: "react-test-renderer@npm:17.0.2"
+  dependencies:
+    object-assign: ^4.1.1
+    react-is: ^17.0.2
+    react-shallow-renderer: ^16.13.1
+    scheduler: ^0.20.2
+  peerDependencies:
+    react: 17.0.2
+  checksum: e6b5c6ed2a0bde2c34f1ab9523ff9bc4c141a271daf730d6b852374e83acc0155d58ab71a318251e953ebfa65b8bebb9c5dce3eba1ccfcbef7cc4e1e8261c401
   languageName: node
   linkType: hard
 
@@ -20502,6 +20542,16 @@ resolve@^1.4.0:
   languageName: node
   linkType: hard
 
+"scheduler@npm:^0.20.2":
+  version: 0.20.2
+  resolution: "scheduler@npm:0.20.2"
+  dependencies:
+    loose-envify: ^1.1.0
+    object-assign: ^4.1.1
+  checksum: c4b35cf967c8f0d3e65753252d0f260271f81a81e427241295c5a7b783abf4ea9e905f22f815ab66676f5313be0a25f47be582254db8f9241b259213e999b8fc
+  languageName: node
+  linkType: hard
+
 "schema-utils@npm:^0.3.0":
   version: 0.3.0
   resolution: "schema-utils@npm:0.3.0"
@@ -21175,7 +21225,7 @@ resolve@^1.4.0:
     redux: ^4.0.1
     redux-immutable-state-invariant: ^2.1.0
     redux-thunk: ^2.3.0
-    source-map-loader: ^0.2.3
+    source-map-loader: ^3.0.0
     style-loader: ^0.23.1
     url-loader: 1.1.2
     webpack: 4.31.0
@@ -21420,13 +21470,23 @@ resolve@^1.4.0:
   languageName: node
   linkType: hard
 
-"source-map-loader@npm:^0.2.3":
-  version: 0.2.4
-  resolution: "source-map-loader@npm:0.2.4"
+"source-map-js@npm:^0.6.2":
+  version: 0.6.2
+  resolution: "source-map-js@npm:0.6.2"
+  checksum: 9c8151a29e00fd8d3ba87709fdf9a9ce48313d653f4a29a39b4ae53d346ac79e005de624796ff42eff55cbaf26d2e87f4466001ca87831d400d818c5cf146a0e
+  languageName: node
+  linkType: hard
+
+"source-map-loader@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "source-map-loader@npm:3.0.0"
   dependencies:
-    async: ^2.5.0
-    loader-utils: ^1.1.0
-  checksum: ec67c402ba4559641af01bdf351816ae2fcfee2e0b5948477f86bc59dbc06d791eaca64e34428469b2c8a88e6ea7ec14c540daee706925a75a0b7ba2152e984c
+    abab: ^2.0.5
+    iconv-lite: ^0.6.2
+    source-map-js: ^0.6.2
+  peerDependencies:
+    webpack: ^5.0.0
+  checksum: c4459cef5a43917ca1c7ad53b106ba715d545daae1ace259c867c36b2b2443c3b9eebe8630cac8f193760db39965c22d1b44d8f69e9910b88c8aca1c836757b5
   languageName: node
   linkType: hard
 
