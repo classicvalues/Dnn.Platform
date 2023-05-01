@@ -1485,6 +1485,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.10.1, @babel/runtime@npm:^7.18.3":
+  version: 7.20.13
+  resolution: "@babel/runtime@npm:7.20.13"
+  dependencies:
+    regenerator-runtime: ^0.13.11
+  checksum: 09b7a97a05c80540db6c9e4ddf8c5d2ebb06cae5caf3a87e33c33f27f8c4d49d9c67a2d72f1570e796045288fad569f98a26ceba0c4f5fad2af84b6ad855c4fb
+  languageName: node
+  linkType: hard
+
 "@babel/template@npm:^7.1.0, @babel/template@npm:^7.1.2, @babel/template@npm:^7.2.2, @babel/template@npm:^7.4.0, @babel/template@npm:^7.4.4":
   version: 7.4.4
   resolution: "@babel/template@npm:7.4.4"
@@ -1634,7 +1643,7 @@ __metadata:
     react-modal: ^3.5.1
     react-motion: ^0.5.2
     react-scrollbar: ^0.5.4
-    react-slider: 0.11.2
+    react-slider: 2.0.4
     react-tabs: 3.0.0
     react-test-renderer: ^17.0.2
     react-test-utils: 0.0.1
@@ -6073,7 +6082,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-runtime@npm:6.x, babel-runtime@npm:^6.18.0, babel-runtime@npm:^6.2.0, babel-runtime@npm:^6.22.0, babel-runtime@npm:^6.26.0, babel-runtime@npm:^6.6.1":
+"babel-runtime@npm:^6.18.0, babel-runtime@npm:^6.2.0, babel-runtime@npm:^6.22.0, babel-runtime@npm:^6.26.0, babel-runtime@npm:^6.6.1":
   version: 6.26.0
   resolution: "babel-runtime@npm:6.26.0"
   dependencies:
@@ -18188,6 +18197,17 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"prop-types@npm:^15.8.1":
+  version: 15.8.1
+  resolution: "prop-types@npm:15.8.1"
+  dependencies:
+    loose-envify: ^1.4.0
+    object-assign: ^4.1.1
+    react-is: ^16.13.1
+  checksum: c056d3f1c057cb7ff8344c645450e14f088a915d078dcda795041765047fa080d38e5d626560ccaac94a4e16e3aa15f3557c1a9a8d1174530955e992c675e459
+  languageName: node
+  linkType: hard
+
 "property-information@npm:^5.0.0, property-information@npm:^5.0.1":
   version: 5.0.1
   resolution: "property-information@npm:5.0.1"
@@ -18506,13 +18526,30 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"rc-progress@npm:^2.0.6":
-  version: 2.3.0
-  resolution: "rc-progress@npm:2.3.0"
+"rc-progress@npm:^3.4.1":
+  version: 3.4.1
+  resolution: "rc-progress@npm:3.4.1"
   dependencies:
-    babel-runtime: 6.x
-    prop-types: ^15.5.8
-  checksum: cab1ea412d2889c2e21d1f94e405dc0e9ad82d517b469932c4876390e04882ac36cfd459c33bf2c4bfef78d326353f9cbd37a26d72117cea9ddeff0b867ae8c3
+    "@babel/runtime": ^7.10.1
+    classnames: ^2.2.6
+    rc-util: ^5.16.1
+  peerDependencies:
+    react: ">=16.9.0"
+    react-dom: ">=16.9.0"
+  checksum: d4dce5231ea29bfa866935a59f05473711f9dfc944f95cc78b0fdcd1508a063983cc58973f54c2b20797f0b0f480c4a2b84aaa2ca185158c14800ec659163880
+  languageName: node
+  linkType: hard
+
+"rc-util@npm:^5.16.1":
+  version: 5.27.2
+  resolution: "rc-util@npm:5.27.2"
+  dependencies:
+    "@babel/runtime": ^7.18.3
+    react-is: ^16.12.0
+  peerDependencies:
+    react: ">=16.9.0"
+    react-dom: ">=16.9.0"
+  checksum: 2d19bac2670bf546225f12e9b7f5b578233ec53cfca0071eaca53d4b056c10fe92b36d4148f0592f0cdc65ab3067c81f9cd8456769ff0e00c1b03210d40c8f19
   languageName: node
   linkType: hard
 
@@ -18859,10 +18896,8 @@ fsevents@~2.3.2:
   checksum: e72d0ba81b5922759e4aff17e0252bd29988f9642ed817f56b25a3e217e13eea8a7f2322af99a06edb779da12d5d636e9fda473d620df9a3da0df2a74141d53e
   languageName: node
   linkType: hard
-
-"react-is@npm:^16.12.0, react-is@npm:^16.3.2, react-is@npm:^16.6.0, react-is@npm:^16.7.0, react-is@npm:^16.8.1, react-is@npm:^16.8.2, react-is@npm:^16.8.4, react-is@npm:^16.8.6":
   version: 16.13.1
-  resolution: "react-is@npm:16.13.1"
+  resolution: "react-is@npm:^16.12.0, react-is@npm:^16.13.1, react-is@npm:^16.3.2, react-is@npm:^16.6.0, react-is@npm:^16.7.0, react-is@npm:^16.8.1, react-is@npm:^16.8.2, react-is@npm:^16.8.4, react-is@npm:^16.8.6":
   checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
   languageName: node
   linkType: hard
@@ -19074,7 +19109,6 @@ fsevents@~2.3.2:
   resolution: "react-shallow-renderer@npm:16.15.0"
   dependencies:
     object-assign: ^4.1.1
-    react-is: ^16.12.0 || ^17.0.0 || ^18.0.0
   peerDependencies:
     react: ^16.0.0 || ^17.0.0 || ^18.0.0
   checksum: 6052c7e3e9627485120ebd8257f128aad8f56386fe8d42374b7743eac1be457c33506d153c7886b4e32923c0c352d402ab805ef9ca02dbcd8393b2bdeb6e5af8
@@ -19084,11 +19118,15 @@ fsevents@~2.3.2:
 "react-slider@npm:0.11.2":
   version: 0.11.2
   resolution: "react-slider@npm:0.11.2"
+
+"react-slider@npm:2.0.4":
+  version: 2.0.4
+  resolution: "react-slider@npm:2.0.4"
+  dependencies:
+    prop-types: ^15.8.1
   peerDependencies:
-    create-react-class: ^15.6
-    prop-types: ^15.6
-    react: ^16.2
-  checksum: d4b227d1706168a89ca4f25789b2847c993099f595b1828de2886f65415dd6713cdb45b6e718ec0ff27eaa2c4485820c0d1e5fa3fb28e47f353d3b5bcc7cb7cd
+    react: ^16 || ^17 || ^18
+  checksum: d7a70eba03017d2e35dc54430afefb1dad8ad2a1f3c39fbbdfdd4d48d41aea9fddf9ff006207a2ad2cf1f1b76295efddba3d23b2af2b8a3d0d1b2aa44390bbf7
   languageName: node
   linkType: hard
 
@@ -19758,6 +19796,13 @@ fsevents@~2.3.2:
   version: 0.12.1
   resolution: "regenerator-runtime@npm:0.12.1"
   checksum: 348c401336bcebe2be17fd4f24c5b0a1ed75bff3024dc817a69cdc776b48b98c7f6f3b98e1baa4220569440bb9215e1fff3dcb01c8aad3ff2ed3732e30d017bf
+  languageName: node
+  linkType: hard
+
+"regenerator-runtime@npm:^0.13.11":
+  version: 0.13.11
+  resolution: "regenerator-runtime@npm:0.13.11"
+  checksum: 27481628d22a1c4e3ff551096a683b424242a216fee44685467307f14d58020af1e19660bf2e26064de946bad7eff28950eae9f8209d55723e2d9351e632bbb4
   languageName: node
   linkType: hard
 
@@ -21162,7 +21207,7 @@ resolve@^1.4.0:
     localization: ^1.0.2
     prop-types: ^15.6.2
     raw-loader: ^2.0.0
-    rc-progress: ^2.0.6
+    rc-progress: ^3.4.1
     react: ^16.6.3
     react-click-outside: ^3.0.1
     react-dom: ^16.6.3
