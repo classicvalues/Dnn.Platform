@@ -1643,7 +1643,7 @@ __metadata:
     react-modal: ^3.5.1
     react-motion: ^0.5.2
     react-scrollbar: ^0.5.4
-    react-slider: 0.11.2
+    react-slider: 2.0.4
     react-tabs: 3.0.0
     react-test-renderer: ^17.0.2
     react-test-utils: 0.0.1
@@ -18197,6 +18197,17 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"prop-types@npm:^15.8.1":
+  version: 15.8.1
+  resolution: "prop-types@npm:15.8.1"
+  dependencies:
+    loose-envify: ^1.4.0
+    object-assign: ^4.1.1
+    react-is: ^16.13.1
+  checksum: c056d3f1c057cb7ff8344c645450e14f088a915d078dcda795041765047fa080d38e5d626560ccaac94a4e16e3aa15f3557c1a9a8d1174530955e992c675e459
+  languageName: node
+  linkType: hard
+
 "property-information@npm:^5.0.0, property-information@npm:^5.0.1":
   version: 5.0.1
   resolution: "property-information@npm:5.0.1"
@@ -18886,7 +18897,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.12.0, react-is@npm:^16.3.2, react-is@npm:^16.6.0, react-is@npm:^16.7.0, react-is@npm:^16.8.1, react-is@npm:^16.8.2, react-is@npm:^16.8.4, react-is@npm:^16.8.6":
+"react-is@npm:^16.12.0, react-is@npm:^16.13.1, react-is@npm:^16.3.2, react-is@npm:^16.6.0, react-is@npm:^16.7.0, react-is@npm:^16.8.1, react-is@npm:^16.8.2, react-is@npm:^16.8.4, react-is@npm:^16.8.6":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
@@ -19107,14 +19118,14 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"react-slider@npm:0.11.2":
-  version: 0.11.2
-  resolution: "react-slider@npm:0.11.2"
+"react-slider@npm:2.0.4":
+  version: 2.0.4
+  resolution: "react-slider@npm:2.0.4"
+  dependencies:
+    prop-types: ^15.8.1
   peerDependencies:
-    create-react-class: ^15.6
-    prop-types: ^15.6
-    react: ^16.2
-  checksum: d4b227d1706168a89ca4f25789b2847c993099f595b1828de2886f65415dd6713cdb45b6e718ec0ff27eaa2c4485820c0d1e5fa3fb28e47f353d3b5bcc7cb7cd
+    react: ^16 || ^17 || ^18
+  checksum: d7a70eba03017d2e35dc54430afefb1dad8ad2a1f3c39fbbdfdd4d48d41aea9fddf9ff006207a2ad2cf1f1b76295efddba3d23b2af2b8a3d0d1b2aa44390bbf7
   languageName: node
   linkType: hard
 
