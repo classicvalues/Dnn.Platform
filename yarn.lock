@@ -1603,7 +1603,7 @@ __metadata:
     less-loader: 5.0.0
     prop-types: ^15.8.1
     raw-loader: 2.0.0
-    react: ^16.14.0
+    react: ^18.3.1
     react-accessible-tooltip: ^2.0.3
     react-addons-test-utils: ^15.6.2
     react-collapse: ^5.1.1
@@ -4863,7 +4863,7 @@ __metadata:
     less-loader: 5.0.0
     prop-types: 15.8.1
     raw-loader: 2.0.0
-    react: ^16.14.0
+    react: ^18.3.1
     react-click-outside: ^3.0.1
     react-dom: ^16.14.0
     react-hot-loader: 4.13.1
@@ -9493,7 +9493,7 @@ __metadata:
     less-loader: 5.0.0
     prop-types: ^15.8.1
     raw-loader: 2.0.0
-    react: ^16.14.0
+    react: ^18.3.1
     react-dom: ^16.14.0
     react-hot-loader: 4.13.1
     style-loader: ^0.23.1
@@ -9532,7 +9532,7 @@ __metadata:
     less-loader: 4.1.0
     null-loader: ^4.0.1
     prop-types: ^15.8.1
-    react: ^16.14.0
+    react: ^18.3.1
     react-dom: ^16.14.0
     react-hot-loader: 4.13.1
     style-loader: ^0.23.1
@@ -9568,7 +9568,7 @@ __metadata:
     localization: ^1.0.2
     null-loader: ^4.0.1
     prop-types: 15.8.1
-    react: ^16.14.0
+    react: ^18.3.1
     react-dom: ^16.14.0
     react-hot-loader: ^4.13.1
     react-redux: ^8.1.1
@@ -10862,7 +10862,7 @@ __metadata:
     moment: ^2.29.4
     prop-types: ^15.8.1
     raw-loader: 2.0.0
-    react: ^16.14.0
+    react: ^18.3.1
     react-collapse: 5.1.1
     react-custom-scrollbars: 4.2.1
     react-dom: ^16.14.0
@@ -10996,7 +10996,7 @@ __metadata:
     less-loader: 5.0.0
     prop-types: ^15.8.1
     raw-loader: 2.0.0
-    react: ^16.14.0
+    react: ^18.3.1
     react-dom: ^16.14.0
     react-hot-loader: 4.13.1
     style-loader: ^0.23.1
@@ -17848,7 +17848,7 @@ fsevents@^1.2.7:
     promise: ^8.3.0
     prop-types: ^15.8.1
     raw-loader: 2.0.0
-    react: ^16.14.0
+    react: ^18.3.1
     react-custom-scrollbars: 4.2.1
     react-day-picker: ^7.4.10
     react-dom: ^16.14.0
@@ -19015,7 +19015,7 @@ fsevents@^1.2.7:
     optimize-css-assets-webpack-plugin: ^5.0.8
     prop-types: ^15.8.1
     raw-loader: 2.0.0
-    react: ^16.14.0
+    react: ^18.3.1
     react-click-outside: ^3.0.1
     react-dom: ^16.14.0
     react-hot-loader: 4.13.1
@@ -20022,7 +20022,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react@npm:^16.14.0, react@npm:^16.8.3":
+"react@npm:^16.8.3":
   version: 16.14.0
   resolution: "react@npm:16.14.0"
   dependencies:
@@ -20030,6 +20030,15 @@ fsevents@^1.2.7:
     object-assign: ^4.1.1
     prop-types: ^15.6.2
   checksum: 8484f3ecb13414526f2a7412190575fc134da785c02695eb92bb6028c930bfe1c238d7be2a125088fec663cc7cda0a3623373c46807cf2c281f49c34b79881ac
+  languageName: node
+  linkType: hard
+
+"react@npm:^18.3.1":
+  version: 18.3.1
+  resolution: "react@npm:18.3.1"
+  dependencies:
+    loose-envify: ^1.1.0
+  checksum: a27bcfa8ff7c15a1e50244ad0d0c1cb2ad4375eeffefd266a64889beea6f6b64c4966c9b37d14ee32d6c9fcd5aa6ba183b6988167ab4d127d13e7cb5b386a376
   languageName: node
   linkType: hard
 
@@ -20940,7 +20949,7 @@ fsevents@^1.2.7:
     less-loader: 5.0.0
     prop-types: ^15.8.1
     raw-loader: 2.0.0
-    react: ^16.14.0
+    react: ^18.3.1
     react-click-outside: ^3.0.1
     react-dom: ^16.14.0
     react-hot-loader: 4.13.1
@@ -21204,7 +21213,7 @@ fsevents@^1.2.7:
     less-loader: 5.0.0
     prop-types: ^15.8.1
     raw-loader: 2.0.0
-    react: ^16.14.0
+    react: ^18.3.1
     react-dom: ^16.14.0
     react-hot-loader: 4.13.1
     react-modal: 3.16.1
@@ -21354,7 +21363,7 @@ fsevents@^1.2.7:
     less-loader: 5.0.0
     prop-types: ^15.8.1
     raw-loader: 2.0.0
-    react: ^16.14.0
+    react: ^18.3.1
     react-dom: ^16.14.0
     react-hot-loader: 4.13.1
     react-modal: 3.16.1
@@ -21460,7 +21469,7 @@ fsevents@^1.2.7:
     null-loader: ^4.0.1
     prop-types: ^15.8.1
     raw-loader: 2.0.0
-    react: ^16.14.0
+    react: ^18.3.1
     react-custom-scrollbars: ^4.2.1
     react-dom: ^16.14.0
     react-hot-loader: 4.13.1
@@ -21774,7 +21783,7 @@ fsevents@^1.2.7:
     prop-types: ^15.8.1
     raw-loader: ^2.0.0
     rc-progress: ^2.6.1
-    react: ^16.14.0
+    react: ^18.3.1
     react-click-outside: ^3.0.1
     react-dom: ^16.14.0
     react-hot-loader: 4.13.1
@@ -21826,7 +21835,7 @@ fsevents@^1.2.7:
     less-loader: 5.0.0
     prop-types: ^15.8.1
     raw-loader: 2.0.0
-    react: ^16.14.0
+    react: ^18.3.1
     react-custom-scrollbars: 4.2.1
     react-dom: ^16.14.0
     react-hot-loader: 4.13.1
@@ -21869,7 +21878,7 @@ fsevents@^1.2.7:
     less-loader: 5.0.0
     prop-types: ^15.8.1
     raw-loader: 2.0.0
-    react: ^16.14.0
+    react: ^18.3.1
     react-dom: ^16.14.0
     react-hot-loader: 4.13.1
     style-loader: ^0.23.1
@@ -22929,7 +22938,7 @@ fsevents@^1.2.7:
     less-loader: 5.0.0
     prop-types: ^15.8.1
     raw-loader: 2.0.0
-    react: ^16.14.0
+    react: ^18.3.1
     react-dom: ^16.14.0
     react-hot-loader: 4.13.1
     react-modal: 3.16.1
@@ -22972,7 +22981,7 @@ fsevents@^1.2.7:
     object-path: 0.11.8
     prop-types: ^15.8.1
     raw-loader: 2.0.0
-    react: ^16.14.0
+    react: ^18.3.1
     react-dom: ^16.14.0
     react-hot-loader: 4.13.1
     style-loader: ^0.23.1
@@ -23209,7 +23218,7 @@ fsevents@^1.2.7:
     less-loader: 5.0.0
     prop-types: ^15.8.1
     raw-loader: 2.0.0
-    react: ^16.14.0
+    react: ^18.3.1
     react-dom: ^16.14.0
     react-hot-loader: 4.13.1
     style-loader: ^0.23.1
@@ -24166,7 +24175,7 @@ fsevents@^1.2.7:
     null-loader: ^4.0.1
     prop-types: ^15.8.1
     raw-loader: 2.0.0
-    react: ^16.14.0
+    react: ^18.3.1
     react-dom: ^16.14.0
     react-hot-loader: 4.13.1
     react-redux: ^8.1.1
