@@ -26,7 +26,7 @@
     "dayjs": "^1.11.9",
     "interact.js": "^1.2.8",
     "raw-loader": "2.0.0",
-    "react-accessible-tooltip": "^2.0.3",
+    "react-accessible-tooltip": "^3.0.0",
     "react-collapse": "^5.1.1",
     "react-custom-scrollbars": "^4.2.1",
     "react-day-picker": "^7.4.10",

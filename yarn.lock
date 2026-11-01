@@ -1604,7 +1604,7 @@ __metadata:
     prop-types: ^15.8.1
     raw-loader: 2.0.0
     react: ^16.14.0
-    react-accessible-tooltip: ^2.0.3
+    react-accessible-tooltip: ^3.0.0
     react-addons-test-utils: ^15.6.2
     react-collapse: ^5.1.1
     react-custom-scrollbars: ^4.2.1
@@ -19409,13 +19409,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-accessible-tooltip@npm:^2.0.3":
-  version: 2.0.3
-  resolution: "react-accessible-tooltip@npm:2.0.3"
+"react-accessible-tooltip@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "react-accessible-tooltip@npm:3.0.0"
   peerDependencies:
-    react: ^15.6.1 || ^16.0.0
-    react-dom: ^15.6.1 || ^16.0.0
-  checksum: cc786d1ec9cd57d0d018eccb5ab74ed63d4d19c34a08c7e337f9e9b8e5f969d8eade06c50ee3a369a03dbe90dde73e11e54ee75800bfd8a3570d6dccebf95cda
+    react: 18
+    react-dom: 18
+  checksum: 8f5f23e21ebc7aa12b61fb4fa58fc3880432c267802cd36a119b3204b4044089e50b2e72893ea14b9f96f483fd0b72c8e99abea11535d3ecc78b24c8c0953ca1
   languageName: node
   linkType: hard
 
